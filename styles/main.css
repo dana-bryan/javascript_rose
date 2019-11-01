@@ -1,0 +1,70 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  background: #fadede;
+  color: #000;
+}
+
+h1 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 250%;
+}
+
+article {
+  max-width: 512px;
+  margin: auto;
+  background: #e3a1a1;
+  padding: 1rem 2rem 3rem 2rem;
+}
+section {
+  background: #dbcece;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+header, footer {
+  text-align: center;
+}
+p {
+  line-height: 1.4;
+}
+
+button {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border: 0.5px solid #8a7f7f;
+  background: #fff;
+  padding: 0.8rem;
+}
+
+#swap #bunchOfRoses {
+  background: #8a7f7f;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  article {
+    padding: 1rem 1rem 3rem 1rem;;
+    text-align: center;
+  }
+  #swap p, #bunchOfRoses p{
+    font-size: small;
+  }
+  section{
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+  }
+}
